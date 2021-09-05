@@ -18,9 +18,29 @@
   <div class="container-boxes">
 
     <div class="left-box">
+       
       <header>
         <nav>
-          <button class="btn btn-primary"> Search for places</button>
+          <button id="btn-places" class="btn btn-primary"> Search for places</button>
+          <div class="box-menu">
+            <div class="menu">
+                <p class="close"><span>&#10006;</span></p>
+                <div class="box-search">
+                  <div>
+                    <input type="text" placeholder="search location">
+                  </div>
+                  <div>
+                    <button>Search</button>
+                  </div>
+                </div>
+
+                <div class="box-city">
+                  <input type="text">
+                  <input type="text">
+                  <input type="text">
+                </div>
+            </div>
+         </div>
         </nav>
       </header>
 
@@ -97,10 +117,23 @@
       <h1>Today's Hightlights</h1>
 
       <div class="container-today-info">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+          <span class="info-subtitle">Wind Status</span>
+          <p>7<span class="size-mph">mph</span></p>
+          <p>WsW</p>
+        </div>
+        <div>
+          <span class="info-subtitle">Humidity</span>
+          <p>7<span class="size-mph">mph</span></p>
+        </div>
+        <div>
+          <span class="info-subtitle">Visibility</span>
+          <p>7<span class="size-mph">mph</span></p>
+        </div>
+        <div>
+          <span class="info-subtitle">Air presure</span>
+          <p>7<span class="size-mph">mph</span></p>
+        </div>
       </div>
     </section>
 
@@ -109,6 +142,5 @@
 </div>
 
 </div>
-
-
+<script src="./js/script.js"></script>
 </html>
